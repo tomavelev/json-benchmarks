@@ -61,25 +61,6 @@ public class CompareLibs {
 				.parse(json);
 		diff = System.currentTimeMillis() - before;
 		System.out.println("smart fromString " + diff);
-		
-		
-		
-		
-		
-		
-		
-//		 JsonObject object = Json.createArrayBuilder().addcreateObjectBuilder().build();
-
-		before = System.currentTimeMillis();
-		json = object.t
-		diff = System.currentTimeMillis() - before;
-		System.out.println("j2ee json toString " + diff);
-
-		before = System.currentTimeMillis();
-		fromJson = (List<Dummy>) new net.minidev.json.parser.JSONParser(USE_HI_PRECISION_FLOAT | ACCEPT_TAILLING_SPACE)
-				.parse(json);
-		diff = System.currentTimeMillis() - before;
-		System.out.println("j2ee json fromString " + diff);
 
 	}
 
